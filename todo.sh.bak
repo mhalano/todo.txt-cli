@@ -1020,12 +1020,6 @@ case $action in
     IFS=$SAVEIFS
     ;;
 
-"addr")
-
-
-
-	;;
-
 "addto" )
     [ -z "$2" ] && die "usage: $TODO_SH addto DEST \"TODO ITEM\""
     dest="$TODO_DIR/$2"
